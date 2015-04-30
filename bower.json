@@ -6,7 +6,7 @@
     "David D'Amico <david.damico@cbc.ca>"
   ],
   "description": "Image helper utilities.",
-  "main": "koco-image-utilities.js",
+  "main": "image-utilities.js",
   "moduleType": [
     "amd"
   ],
