@@ -22,5 +22,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "lodash": "^3.7.0",
+    "knockout": "^3.3.0"
+  }
 }
