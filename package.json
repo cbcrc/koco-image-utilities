@@ -1,0 +1,23 @@
+{
+    "name": "koco-image-utilities",
+    "version": "0.1.0",
+    "homepage": "https://github.com/cbcrc/koco-image-utilities",
+    "authors": [
+        "David D'Amico <david.damico@cbc.ca>"
+    ],
+    "description": "Image helper utilities.",
+    "main": "src/image-utilities.js",
+    "keywords": [
+        "koco",
+        "utilities",
+        "helpers"
+    ],
+    "scripts": {
+        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "^3.7.0",
+        "knockout": "^3.3.0"
+    }
+}
