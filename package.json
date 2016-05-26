@@ -18,8 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "knockout": "^3.4.0",
-    "koco": "^1.0.0",
-    "lodash": "^4.13.1"
+    "lodash": "^4.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
